@@ -51,8 +51,9 @@ class Crociera:
                 p = Passeggero(cod, nome, cognome)
 
                 self._passeggeri.append(p)
+
             else:
-                raise ValueError(f'Formato non trovato: {line}')
+                raise ValueError(f"Riga non valida: deve iniziare con 'C' (cabina) o 'P' (passeggero)")
 
     def assegna_passeggero_a_cabina(self, codice_cabina, codice_passeggero):
         cabina = None

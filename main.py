@@ -12,7 +12,6 @@ def menu():
 
     return input("Scegli un'opzione >> ")
 
-
 def main():
     crociera = Crociera("MSC Futura")
 
