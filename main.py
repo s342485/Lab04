@@ -9,6 +9,7 @@ def menu():
     print("5. Visualizza elenco passeggeri")
     print("6. Esci")
 
+
     return input("Scegli un'opzione >> ")
 
 
